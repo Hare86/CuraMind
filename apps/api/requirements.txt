@@ -1,0 +1,47 @@
+# Web framework
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.12
+
+# Settings & config
+pydantic==2.10.3
+pydantic-settings==2.6.1
+python-jose[cryptography]==3.3.0
+bcrypt==4.2.1
+
+# Database
+sqlalchemy[asyncio]==2.0.36
+asyncpg==0.30.0
+alembic==1.14.0
+
+# Redis & Celery
+redis==5.2.0
+celery==5.4.0
+celery[redis]==5.4.0
+
+# Vector database
+qdrant-client==1.12.1
+
+# Embeddings & ML
+sentence-transformers==3.3.1
+numpy==1.26.4
+torch==2.5.1
+transformers==4.47.0
+
+# LLM
+anthropic==0.40.0
+httpx==0.28.0
+
+# Document parsing
+pymupdf==1.24.14          # PDF
+python-docx==1.1.2        # DOCX
+python-pptx==1.0.2        # PPTX
+
+# Observability
+prometheus-fastapi-instrumentator==7.0.0
+langfuse==2.57.7
+
+# Utilities
+python-dotenv==1.0.1
+aiofiles==24.1.0
+aiosmtplib==3.0.2
