@@ -60,6 +60,10 @@ postgres-data/
 qdrant_storage/
 redis-data/
 
+# Qdrant binary (large file — install via Docker instead)
+infra/qdrant/qdrant
+infra/qdrant/qdrant.tar.gz
+
 # Coverage
 .coverage
 htmlcov/
